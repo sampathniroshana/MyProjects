@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{5FEC0FE4-392B-4D7F-A400-E558BB796130}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCMS", "WebApplication1\SCMS.csproj", "{5FEC0FE4-392B-4D7F-A400-E558BB796130}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAO", "DAO\DAO.csproj", "{DAC3F2F4-E253-47B1-A6AC-8E705963887D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{05F58736-069D-43D6-BDD7-F3BB8F2EFDD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +17,14 @@ Global
 		{5FEC0FE4-392B-4D7F-A400-E558BB796130}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FEC0FE4-392B-4D7F-A400-E558BB796130}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FEC0FE4-392B-4D7F-A400-E558BB796130}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAC3F2F4-E253-47B1-A6AC-8E705963887D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAC3F2F4-E253-47B1-A6AC-8E705963887D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAC3F2F4-E253-47B1-A6AC-8E705963887D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAC3F2F4-E253-47B1-A6AC-8E705963887D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05F58736-069D-43D6-BDD7-F3BB8F2EFDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05F58736-069D-43D6-BDD7-F3BB8F2EFDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05F58736-069D-43D6-BDD7-F3BB8F2EFDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05F58736-069D-43D6-BDD7-F3BB8F2EFDD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

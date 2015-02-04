@@ -30,10 +30,10 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmLogin));
             this.LblUser = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.TxtUname = new System.Windows.Forms.TextBox();
             this.BtnClose = new System.Windows.Forms.Button();
             this.LblPassword = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TxtPword = new System.Windows.Forms.TextBox();
             this.BtnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -47,16 +47,16 @@
             this.LblUser.TabIndex = 0;
             this.LblUser.Text = "User Name";
             // 
-            // textBox1
+            // TxtUname
             // 
-            this.textBox1.Location = new System.Drawing.Point(176, 16);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 1;
+            this.TxtUname.Location = new System.Drawing.Point(176, 16);
+            this.TxtUname.Name = "TxtUname";
+            this.TxtUname.Size = new System.Drawing.Size(172, 20);
+            this.TxtUname.TabIndex = 1;
             // 
             // BtnClose
             // 
-            this.BtnClose.Location = new System.Drawing.Point(273, 97);
+            this.BtnClose.Location = new System.Drawing.Point(273, 85);
             this.BtnClose.Name = "BtnClose";
             this.BtnClose.Size = new System.Drawing.Size(75, 23);
             this.BtnClose.TabIndex = 2;
@@ -73,16 +73,17 @@
             this.LblPassword.TabIndex = 3;
             this.LblPassword.Text = "Password";
             // 
-            // textBox2
+            // TxtPword
             // 
-            this.textBox2.Location = new System.Drawing.Point(176, 47);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.TxtPword.Location = new System.Drawing.Point(176, 47);
+            this.TxtPword.Name = "TxtPword";
+            this.TxtPword.PasswordChar = '*';
+            this.TxtPword.Size = new System.Drawing.Size(172, 20);
+            this.TxtPword.TabIndex = 4;
             // 
             // BtnLogin
             // 
-            this.BtnLogin.Location = new System.Drawing.Point(176, 97);
+            this.BtnLogin.Location = new System.Drawing.Point(176, 85);
             this.BtnLogin.Name = "BtnLogin";
             this.BtnLogin.Size = new System.Drawing.Size(75, 23);
             this.BtnLogin.TabIndex = 5;
@@ -97,10 +98,10 @@
             this.ClientSize = new System.Drawing.Size(360, 132);
             this.ControlBox = false;
             this.Controls.Add(this.BtnLogin);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.TxtPword);
             this.Controls.Add(this.LblPassword);
             this.Controls.Add(this.BtnClose);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.TxtUname);
             this.Controls.Add(this.LblUser);
             this.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -109,6 +110,7 @@
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "System Login";
+            this.Load += new System.EventHandler(this.FrmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -117,10 +119,10 @@
         #endregion
 
         private System.Windows.Forms.Label LblUser;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TxtUname;
         private System.Windows.Forms.Button BtnClose;
         private System.Windows.Forms.Label LblPassword;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox TxtPword;
         private System.Windows.Forms.Button BtnLogin;
     }
 }

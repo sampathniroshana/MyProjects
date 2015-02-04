@@ -21,5 +21,21 @@ namespace SCMS_Win
         {
             
         }
+
+        private void BtnClose_Click(object sender, EventArgs e)
+        {
+            // Login Window Close
+            this.Close();
+        }
+
+        private void BtnLogin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        public bool UserLogin(String uName, String pWord)
+        {
+            return true;
+        }
     }
 }

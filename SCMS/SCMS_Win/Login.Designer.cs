@@ -42,11 +42,11 @@
             // LblUser
             // 
             this.LblUser.AutoSize = true;
-            this.LblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblUser.ForeColor = System.Drawing.Color.BlueViolet;
-            this.LblUser.Location = new System.Drawing.Point(166, 213);
+            this.LblUser.Location = new System.Drawing.Point(153, 211);
             this.LblUser.Name = "LblUser";
-            this.LblUser.Size = new System.Drawing.Size(69, 13);
+            this.LblUser.Size = new System.Drawing.Size(88, 17);
             this.LblUser.TabIndex = 0;
             this.LblUser.Text = "User Name";
             // 
@@ -67,15 +67,16 @@
             this.BtnClose.TabIndex = 2;
             this.BtnClose.Text = "Close";
             this.BtnClose.UseVisualStyleBackColor = true;
+            this.BtnClose.Click += new System.EventHandler(this.BtnClose_Click);
             // 
             // LblPassword
             // 
             this.LblPassword.AutoSize = true;
-            this.LblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblPassword.ForeColor = System.Drawing.Color.BlueViolet;
-            this.LblPassword.Location = new System.Drawing.Point(166, 244);
+            this.LblPassword.Location = new System.Drawing.Point(153, 242);
             this.LblPassword.Name = "LblPassword";
-            this.LblPassword.Size = new System.Drawing.Size(61, 13);
+            this.LblPassword.Size = new System.Drawing.Size(77, 17);
             this.LblPassword.TabIndex = 3;
             this.LblPassword.Text = "Password";
             // 
@@ -97,15 +98,16 @@
             this.BtnLogin.TabIndex = 5;
             this.BtnLogin.Text = "Login";
             this.BtnLogin.UseVisualStyleBackColor = true;
+            this.BtnLogin.Click += new System.EventHandler(this.BtnLogin_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Century Schoolbook", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.BlueViolet;
             this.label1.Location = new System.Drawing.Point(3, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(432, 22);
+            this.label1.Size = new System.Drawing.Size(429, 21);
             this.label1.TabIndex = 6;
             this.label1.Text = "Smart Customer Complain Management System";
             // 
@@ -143,7 +145,6 @@
             this.MinimizeBox = false;
             this.Name = "FrmLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "System Login";
             this.Load += new System.EventHandler(this.FrmLogin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

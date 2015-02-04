@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebApplication1.Login" %>
+﻿<%@ Page Language="C#"  AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="WebApplication1.Login" %>
 
 <!DOCTYPE html>
 
@@ -34,6 +34,8 @@
         Smart Customer Managemant System</form>
     <p>
         &nbsp;</p>
+    <div>
+    </div>
     <div>
     <div style="text-align: right">
     

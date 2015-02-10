@@ -43,25 +43,28 @@
             // 
             this.LblUser.AutoSize = true;
             this.LblUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblUser.ForeColor = System.Drawing.Color.BlueViolet;
-            this.LblUser.Location = new System.Drawing.Point(153, 211);
+            this.LblUser.ForeColor = System.Drawing.Color.Black;
+            this.LblUser.Location = new System.Drawing.Point(115, 245);
             this.LblUser.Name = "LblUser";
             this.LblUser.Size = new System.Drawing.Size(88, 17);
             this.LblUser.TabIndex = 0;
             this.LblUser.Text = "User Name";
+            this.LblUser.Click += new System.EventHandler(this.LblUser_Click);
             // 
             // TxtUname
             // 
-            this.TxtUname.Location = new System.Drawing.Point(257, 210);
+            this.TxtUname.ForeColor = System.Drawing.Color.Black;
+            this.TxtUname.Location = new System.Drawing.Point(219, 244);
             this.TxtUname.Name = "TxtUname";
             this.TxtUname.Size = new System.Drawing.Size(172, 20);
             this.TxtUname.TabIndex = 1;
+            this.TxtUname.TextChanged += new System.EventHandler(this.TxtUname_TextChanged);
             // 
             // BtnClose
             // 
             this.BtnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnClose.ForeColor = System.Drawing.Color.BlueViolet;
-            this.BtnClose.Location = new System.Drawing.Point(354, 279);
+            this.BtnClose.ForeColor = System.Drawing.Color.Black;
+            this.BtnClose.Location = new System.Drawing.Point(316, 313);
             this.BtnClose.Name = "BtnClose";
             this.BtnClose.Size = new System.Drawing.Size(75, 23);
             this.BtnClose.TabIndex = 2;
@@ -73,26 +76,29 @@
             // 
             this.LblPassword.AutoSize = true;
             this.LblPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPassword.ForeColor = System.Drawing.Color.BlueViolet;
-            this.LblPassword.Location = new System.Drawing.Point(153, 242);
+            this.LblPassword.ForeColor = System.Drawing.Color.Black;
+            this.LblPassword.Location = new System.Drawing.Point(115, 276);
             this.LblPassword.Name = "LblPassword";
             this.LblPassword.Size = new System.Drawing.Size(77, 17);
             this.LblPassword.TabIndex = 3;
             this.LblPassword.Text = "Password";
+            this.LblPassword.Click += new System.EventHandler(this.LblPassword_Click);
             // 
             // TxtPword
             // 
-            this.TxtPword.Location = new System.Drawing.Point(257, 241);
+            this.TxtPword.ForeColor = System.Drawing.Color.Black;
+            this.TxtPword.Location = new System.Drawing.Point(219, 275);
             this.TxtPword.Name = "TxtPword";
             this.TxtPword.PasswordChar = '*';
             this.TxtPword.Size = new System.Drawing.Size(172, 20);
             this.TxtPword.TabIndex = 4;
+            this.TxtPword.TextChanged += new System.EventHandler(this.TxtPword_TextChanged);
             // 
             // BtnLogin
             // 
             this.BtnLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnLogin.ForeColor = System.Drawing.Color.BlueViolet;
-            this.BtnLogin.Location = new System.Drawing.Point(257, 279);
+            this.BtnLogin.ForeColor = System.Drawing.Color.Black;
+            this.BtnLogin.Location = new System.Drawing.Point(219, 313);
             this.BtnLogin.Name = "BtnLogin";
             this.BtnLogin.Size = new System.Drawing.Size(75, 23);
             this.BtnLogin.TabIndex = 5;
@@ -103,11 +109,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Schoolbook", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.BlueViolet;
+            this.label1.Font = new System.Drawing.Font("Georgia", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(3, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(429, 21);
+            this.label1.Size = new System.Drawing.Size(439, 20);
             this.label1.TabIndex = 6;
             this.label1.Text = "Smart Customer Complain Management System";
             // 
@@ -115,12 +121,13 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.BlueViolet;
+            this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(4, 326);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 13);
             this.label2.TabIndex = 7;
             this.label2.Text = "Versin 1.0.0.1";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // FrmLogin
             // 
@@ -129,7 +136,7 @@
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(441, 348);
+            this.ClientSize = new System.Drawing.Size(403, 348);
             this.ControlBox = false;
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

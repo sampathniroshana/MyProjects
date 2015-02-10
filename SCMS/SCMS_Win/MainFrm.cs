@@ -68,12 +68,12 @@ namespace SCMS_Win
 
         private void ToolBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            toolStrip.Visible = toolBarToolStripMenuItem.Checked;
+          
         }
 
         private void StatusBarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            statusStrip.Visible = statusBarToolStripMenuItem.Checked;
+          
         }
 
         private void CascadeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -102,6 +102,13 @@ namespace SCMS_Win
             {
                 childForm.Close();
             }
+        }
+
+        private void MainFrm_Load(object sender, EventArgs e)
+        {
+            this.BackColor = Color.BlueViolet;
+
+
         }
     }
 }

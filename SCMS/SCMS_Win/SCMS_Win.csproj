@@ -53,6 +53,36 @@
     <Compile Include="FrmCategory.Designer.cs">
       <DependentUpon>FrmCategory.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmCreateInteraction.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCreateInteraction.Designer.cs">
+      <DependentUpon>FrmCreateInteraction.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIntractionCategory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIntractionCategory.Designer.cs">
+      <DependentUpon>FrmIntractionCategory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIntractionMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIntractionMain.Designer.cs">
+      <DependentUpon>FrmIntractionMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIntractionSubCat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIntractionSubCat.Designer.cs">
+      <DependentUpon>FrmIntractionSubCat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTaskInbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTaskInbox.Designer.cs">
+      <DependentUpon>FrmTaskInbox.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmUserCreationcs.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +109,21 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCreateInteraction.resx">
+      <DependentUpon>FrmCreateInteraction.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIntractionCategory.resx">
+      <DependentUpon>FrmIntractionCategory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIntractionMain.resx">
+      <DependentUpon>FrmIntractionMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmIntractionSubCat.resx">
+      <DependentUpon>FrmIntractionSubCat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTaskInbox.resx">
+      <DependentUpon>FrmTaskInbox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmUserCreationcs.resx">
       <DependentUpon>FrmUserCreationcs.cs</DependentUpon>
     </EmbeddedResource>

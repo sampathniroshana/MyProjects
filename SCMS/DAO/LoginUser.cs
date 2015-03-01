@@ -7,7 +7,7 @@ using System.Data;
 
 namespace DAO
 {
-   public class Login
+   public class LoginUser
     {
        //Variables for login
 
@@ -28,7 +28,7 @@ namespace DAO
             set { password = value; }
         }
 
-        public Boolean getUser(Login obj)
+        public Boolean getUser(LoginUser obj)
         {
            DataTable Dt = dal.getLogin(obj.userName ,obj.password);
            if (Dt.Rows.Count > 0)

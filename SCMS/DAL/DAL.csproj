@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="DataAccess.cs" />
     <Compile Include="LoginDal.cs" />
+    <Compile Include="MainCatDal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

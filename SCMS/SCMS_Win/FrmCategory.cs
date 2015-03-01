@@ -16,5 +16,10 @@ namespace SCMS_Win
         {
             InitializeComponent();
         }
+
+        private void FrmCategory_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

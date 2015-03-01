@@ -59,7 +59,7 @@ namespace SCMS_Win
 
         public void UserLogin(String uName, String pWord)
         {
-            Login login = new Login();
+            LoginUser login = new LoginUser();
             login.UserName = uName;
             login.Password = pWord;
             if (login.getUser(login))

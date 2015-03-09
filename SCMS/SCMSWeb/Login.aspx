@@ -21,7 +21,7 @@
     <asp:TextBox ID="txtUserName" runat="server" placeholder="Username"></asp:TextBox>
     <asp:TextBox ID="txtPassword" runat="server" placeholder="Password"></asp:TextBox>
     <asp:Button ID="btnLogin" runat="server" Text="Log in" OnClick="btnLogin_Click" />
-    <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+    <asp:Label ID="LblMessage" runat="server" ForeColor="Red"></asp:Label>
     </div>
     </form>       
  </div>

@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using DAO;
+using System.Data;
 
 namespace SCMSWeb
 {
@@ -25,8 +26,7 @@ namespace SCMSWeb
             }
             catch (Exception ex)
             {
-               // actionLog.Error(ex.ToString());
-                //MessageBox.Show(ex.ToString());
+                LblMessage.Text = ex.Message.ToString();
             }
 
 
@@ -37,13 +37,25 @@ namespace SCMSWeb
             LoginUser loginUser = new LoginUser();
             loginUser.UserName = uName;
             loginUser.Password = pWord;
+            DataTable dt =loginUser.getUser(loginUser);
 
-            if (loginUser.getUser(loginUser))
+            if(dt.Rows.Count >0)
+            {
+            if (dt.Rows[0]["UserMode"].ToString()== "Supervisor")
+            {
+                Session["username"] = uName;
+                Response.Redirect("AdminDashboad.aspx");
+                
+              
+            }else
             {
                 Session["username"] = uName;
                 Response.Redirect("agentDashboad.aspx");
-                
-               
+            }
+            }
+            else
+            {
+                LblMessage.Text = "Incorrect Username or Password";
             }
            
                

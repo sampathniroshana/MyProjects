@@ -28,13 +28,13 @@ namespace DAO
             set { password = value; }
         }
 
-        public Boolean getUser(LoginUser obj)
+        public DataTable getUser(LoginUser obj)
         {
            DataTable Dt = dal.getLogin(obj.userName ,obj.password);
            if (Dt.Rows.Count > 0)
-               return true;
+               return Dt;
            else
-               return false;
+               return Dt;
         }
     }
 }

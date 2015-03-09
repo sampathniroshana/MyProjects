@@ -8,14 +8,14 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">DASHBOAD</h2>
+        <h1 class="section-heading">DASHBOAD</h1>
         <div class="line"></div>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-3">
         <div class="team-member"> 
-           <a href="WebForm2.aspx"><img src="Style/img/dashboadImage/mainCategory.png" class="img-responsive img-circle" alt=""></a> 
+           <a href="ManageMainCategory.aspx"><img src="Style/img/dashboadImage/mainCategory.png" class="img-responsive img-circle" alt=""></a> 
           <h4> Main Category</h4>
           <!--<p class="text-muted">Web Designer</p>
           <ul class="list-inline social-buttons">
@@ -26,7 +26,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="team-member"> <img src="Style/img/dashboadImage/Category.png" class="img-responsive img-circle" alt="">
+        <div class="team-member"><a href="ManageCategory.aspx"> <img src="Style/img/dashboadImage/Category.png" class="img-responsive img-circle" alt="">
           <h4>Category</h4>
           <!--<p class="text-muted">Graphic Designer</p>
           <ul class="list-inline social-buttons">
@@ -37,7 +37,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="team-member"> <img src="Style/img/dashboadImage/subCategory.png" class="img-responsive img-circle" alt="">
+        <div class="team-member"><a href="ManageSubCategory.aspx"><img src="Style/img/dashboadImage/subCategory.png" class="img-responsive img-circle" alt="">
           <h4>Sub Category</h4>
           <!--<p class="text-muted">Lead Developer</p>
           <ul class="list-inline social-buttons">
@@ -48,7 +48,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="team-member"> <img src="Style/img/dashboadImage/UserCreation.png" class="img-responsive img-circle" alt="">
+        <div class="team-member"> <a href="ManageUser.aspx"><img src="Style/img/dashboadImage/User.png" class="img-responsive img-circle" alt="">
           <h4>User Creation</h4>
           <!--<p class="text-muted">Web Developer</p>
           <ul class="list-inline social-buttons">
@@ -62,7 +62,7 @@
     <div class="row">
       <div class="col-sm-3">
         <div class="team-member"> 
-           <a href="WebForm2.aspx"><img src="Style/img/dashboadImage/UserCreation.png" class="img-responsive img-circle" alt=""></a> 
+           <a href="WebForm2.aspx"><a href="ManageUserGroups.aspx"><img src="Style/img/dashboadImage/UserCreation.png" class="img-responsive img-circle" alt=""></a> 
           <h4> User Group Creation</h4>
           <!--<p class="text-muted">Web Designer</p>
           <ul class="list-inline social-buttons">
@@ -84,7 +84,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="team-member"> <img src="Style/img/dashboadImage/customer-service.png" class="img-responsive img-circle" alt="">
+        <div class="team-member"><a href="RegisterCustomers.aspx"><a href="ManageIntractions.aspx"> <img src="Style/img/dashboadImage/customer-service.png" class="img-responsive img-circle" alt="">
           <h4>Create Interaction</h4>
           <!--<p class="text-muted">Graphic Designer</p>
           <ul class="list-inline social-buttons">
@@ -95,7 +95,7 @@
         </div>
       </div>
       <div class="col-sm-3">
-        <div class="team-member"> <img src="Style/img/dashboadImage/inbox.png" class="img-responsive img-circle" alt="">
+        <div class="team-member"><a href="ManageTasks.aspx"> <img src="Style/img/dashboadImage/inbox.png" class="img-responsive img-circle" alt="">
           <h4>Task Inbox</h4>
           <!--<p class="text-muted">Graphic Designer</p>
           <ul class="list-inline social-buttons">
@@ -115,5 +115,7 @@
   </div>
 </section>
     </div>
+   
+    </a>
    
 </asp:Content>

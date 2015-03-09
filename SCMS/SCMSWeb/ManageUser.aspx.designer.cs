@@ -10,25 +10,16 @@
 namespace SCMSWeb {
     
     
-    public partial class frmCreateNewCategory {
+    public partial class ManageUser {
         
         /// <summary>
-        /// CboType control.
+        /// CboUserType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList CboType;
-        
-        /// <summary>
-        /// CboMainCategory control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList CboMainCategory;
+        protected global::System.Web.UI.WebControls.DropDownList CboUserType;
         
         /// <summary>
         /// Button2 control.
@@ -40,40 +31,58 @@ namespace SCMSWeb {
         protected global::System.Web.UI.WebControls.Button Button2;
         
         /// <summary>
-        /// DgvMainCat control.
+        /// DgvUser control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView DgvMainCat;
+        protected global::System.Web.UI.WebControls.GridView DgvUser;
         
         /// <summary>
-        /// TxtCatId control.
+        /// TxtuserID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtCatId;
+        protected global::System.Web.UI.WebControls.TextBox TxtuserID;
         
         /// <summary>
-        /// TxtCategory control.
+        /// TxtUserName control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtCategory;
+        protected global::System.Web.UI.WebControls.TextBox TxtUserName;
         
         /// <summary>
-        /// TxtDescription control.
+        /// Txtpassword control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtDescription;
+        protected global::System.Web.UI.WebControls.TextBox Txtpassword;
+        
+        /// <summary>
+        /// TxtCpassword control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtCpassword;
+        
+        /// <summary>
+        /// TxtEmail control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtEmail;
         
         /// <summary>
         /// ChkActive control.
@@ -94,13 +103,13 @@ namespace SCMSWeb {
         protected global::System.Web.UI.WebControls.Button bntSave;
         
         /// <summary>
-        /// BtnClear control.
+        /// Button1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnClear;
+        protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
         /// LblMessage control.

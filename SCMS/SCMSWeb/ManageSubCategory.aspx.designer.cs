@@ -10,7 +10,7 @@
 namespace SCMSWeb {
     
     
-    public partial class frmCreateNewCategory {
+    public partial class ManageSubCategory {
         
         /// <summary>
         /// CboType control.
@@ -22,67 +22,85 @@ namespace SCMSWeb {
         protected global::System.Web.UI.WebControls.DropDownList CboType;
         
         /// <summary>
-        /// CboMainCategory control.
+        /// CboMainCat control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList CboMainCategory;
+        protected global::System.Web.UI.WebControls.DropDownList CboMainCat;
         
         /// <summary>
-        /// Button2 control.
+        /// CboCategory control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
+        protected global::System.Web.UI.WebControls.DropDownList CboCategory;
         
         /// <summary>
-        /// DgvMainCat control.
+        /// BtnView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView DgvMainCat;
+        protected global::System.Web.UI.WebControls.Button BtnView;
         
         /// <summary>
-        /// TxtCatId control.
+        /// DgvSubCat control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtCatId;
+        protected global::System.Web.UI.WebControls.GridView DgvSubCat;
         
         /// <summary>
-        /// TxtCategory control.
+        /// TxtSubcatID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtCategory;
+        protected global::System.Web.UI.WebControls.TextBox TxtSubcatID;
         
         /// <summary>
-        /// TxtDescription control.
+        /// TxtSubcat control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtDescription;
+        protected global::System.Web.UI.WebControls.TextBox TxtSubcat;
         
         /// <summary>
-        /// ChkActive control.
+        /// TxtDesc control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox ChkActive;
+        protected global::System.Web.UI.WebControls.TextBox TxtDesc;
+        
+        /// <summary>
+        /// CboUserGroup control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList CboUserGroup;
+        
+        /// <summary>
+        /// ChkStatus control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.CheckBox ChkStatus;
         
         /// <summary>
         /// bntSave control.

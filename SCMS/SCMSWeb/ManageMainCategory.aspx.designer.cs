@@ -10,7 +10,7 @@
 namespace SCMSWeb {
     
     
-    public partial class frmCreateNewCategory {
+    public partial class ManageCategory {
         
         /// <summary>
         /// CboMainType control.
@@ -22,22 +22,13 @@ namespace SCMSWeb {
         protected global::System.Web.UI.WebControls.DropDownList CboMainType;
         
         /// <summary>
-        /// Button2 control.
+        /// BtnView control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
-        
-        /// <summary>
-        /// CboMainCategory control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList CboMainCategory;
+        protected global::System.Web.UI.WebControls.Button BtnView;
         
         /// <summary>
         /// DgvMainCat control.
@@ -49,13 +40,22 @@ namespace SCMSWeb {
         protected global::System.Web.UI.WebControls.GridView DgvMainCat;
         
         /// <summary>
-        /// DropDownList3 control.
+        /// TxtMainCatID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList3;
+        protected global::System.Web.UI.WebControls.TextBox TxtMainCatID;
+        
+        /// <summary>
+        /// TxtMainCat control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox TxtMainCat;
         
         /// <summary>
         /// TxtDescription control.
@@ -67,13 +67,13 @@ namespace SCMSWeb {
         protected global::System.Web.UI.WebControls.TextBox TxtDescription;
         
         /// <summary>
-        /// CheckBox1 control.
+        /// ChkActive control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBox CheckBox1;
+        protected global::System.Web.UI.WebControls.CheckBox ChkActive;
         
         /// <summary>
         /// bntSave control.

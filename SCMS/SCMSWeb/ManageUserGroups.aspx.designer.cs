@@ -10,61 +10,34 @@
 namespace SCMSWeb {
     
     
-    public partial class frmCreateNewCategory {
+    public partial class ManageUserGroups {
         
         /// <summary>
-        /// CboType control.
+        /// DgvGroups control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList CboType;
+        protected global::System.Web.UI.WebControls.GridView DgvGroups;
         
         /// <summary>
-        /// CboMainCategory control.
+        /// TxtUserGroupID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList CboMainCategory;
+        protected global::System.Web.UI.WebControls.TextBox TxtUserGroupID;
         
         /// <summary>
-        /// Button2 control.
+        /// TxtUserGroup control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button2;
-        
-        /// <summary>
-        /// DgvMainCat control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView DgvMainCat;
-        
-        /// <summary>
-        /// TxtCatId control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtCatId;
-        
-        /// <summary>
-        /// TxtCategory control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtCategory;
+        protected global::System.Web.UI.WebControls.TextBox TxtUserGroup;
         
         /// <summary>
         /// TxtDescription control.
@@ -76,6 +49,15 @@ namespace SCMSWeb {
         protected global::System.Web.UI.WebControls.TextBox TxtDescription;
         
         /// <summary>
+        /// CboDistribution control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList CboDistribution;
+        
+        /// <summary>
         /// ChkActive control.
         /// </summary>
         /// <remarks>
@@ -83,6 +65,15 @@ namespace SCMSWeb {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox ChkActive;
+        
+        /// <summary>
+        /// CboAgent control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.DropDownList CboAgent;
         
         /// <summary>
         /// bntSave control.
